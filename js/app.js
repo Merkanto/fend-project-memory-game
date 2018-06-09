@@ -1,8 +1,8 @@
 /*
  * Create a list that holds all of your cards
  */
-let cardsHolderArr = ['paper-plane-o', 'paper-plane-o', 'bolt', 'bolt', 'bomb', 'bomb', 'diamond', 'diamond', 'cube', 'cube', 'leaf', 'leaf', 'bicycle', 'bicycle'];
-
+const cardsHolderArr = ['paper-plane-o', 'paper-plane-o', 'bolt', 'bolt', 'bomb', 'bomb', 'diamond', 'diamond', 'cube', 'cube', 'leaf', 'leaf', 'bicycle', 'bicycle'];
+const cardsDeck = document.querySelector('.card');
 
 /*
  * Display the cards on the page
