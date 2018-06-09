@@ -3,6 +3,7 @@
  */
 const cardsHolderArr = ['paper-plane-o', 'paper-plane-o', 'bolt', 'bolt', 'bomb', 'bomb', 'diamond', 'diamond', 'cube', 'cube', 'leaf', 'leaf', 'bicycle', 'bicycle'];
 const cardsDeck = document.querySelector('.card');
+const restartGameBtn = document.querySelector('.restart');
 
 /*
  * Display the cards on the page
