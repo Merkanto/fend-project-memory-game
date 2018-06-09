@@ -1,6 +1,7 @@
 /*
  * Create a list that holds all of your cards
  */
+let cardsHolderArr = ['paper-plane-o', 'paper-plane-o', 'bolt', 'bolt', 'bomb', 'bomb', 'diamond', 'diamond', 'cube', 'cube', 'leaf', 'leaf', 'bicycle', 'bicycle'];
 
 
 /*
@@ -9,6 +10,7 @@
  *   - loop through each card and create its HTML
  *   - add each card's HTML to the page
  */
+
 
 // Shuffle function from http://stackoverflow.com/a/2450976
 function shuffle(array) {
