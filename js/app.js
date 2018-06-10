@@ -5,13 +5,14 @@ const cardsHolderArr = ['paper-plane-o', 'paper-plane-o', 'bolt', 'bolt', 'bomb'
 const cardsDeck = document.querySelector('.card');
 const restartGameBtn = document.querySelector('.restart');
 
+let resetGameTimer = 0;
+
 /*
  * Display the cards on the page
  *   - shuffle the list of cards using the provided "shuffle" method below
  *   - loop through each card and create its HTML
  *   - add each card's HTML to the page
  */
-
 
 // Shuffle function from http://stackoverflow.com/a/2450976
 function shuffle(array) {
@@ -27,6 +28,8 @@ function shuffle(array) {
 
     return array;
 }
+
+
 
 
 /*
