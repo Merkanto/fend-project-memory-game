@@ -109,6 +109,19 @@ function areMatchedCards() {
     }
 }
 
+//if the player's moves are less than 17, he or she will receive a max star rating
+function countMovesForRating() {
+    gameMoves.innerText++;
+
+    if (gameMoves.innerText > 17) {
+        document.querySelector('.stars li:first-child').classList.add('empty-star');
+
+    }
+    if (gameMoves.innerText > 25) {
+        document.querySelector('.stars li:nth-child(2)').classList.add('empty-star');
+    }
+}
+
 
 /*
  * set up the event listener for a card. If a card is clicked:
