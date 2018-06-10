@@ -2,17 +2,21 @@
  * Create a list that holds all of your cards
  */
 const cardsHolderArr = ['paper-plane-o', 'paper-plane-o', 'bolt', 'bolt', 'bomb', 'bomb', 'diamond', 'diamond', 'cube', 'cube', 'leaf', 'leaf', 'bicycle', 'bicycle'];
-const cardsDeck = document.querySelector('.card');
-const restartGameBtn = document.querySelector('.restart');
+const cardsDeck = document.querySelector('.deck');
+const restartGameBtn = document.querySelector('.game-restart');
 
 //Game popup message of game variables
-const gameTime = document.querySelector('.time');
-const modalMessage = document.querySelector('.modal');
+const gameTime = document.querySelector('.game-time');
+const gameMessages = document.querySelector('.game-messages');
+
 let gameTimer;
-let gameMinutes = document.querySelector('.minutes');
-let gameSeconds = document.querySelector('.seconds');
+let gameMinutes = document.querySelector('.game-minutes');
+let gameSeconds = document.querySelector('.game-seconds');
 
 let resetGameTimer = 0;
+
+let cardsMatchingArr = [];
+
 
 
 /*
