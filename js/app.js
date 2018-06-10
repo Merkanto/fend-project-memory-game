@@ -8,6 +8,7 @@ const restartGameBtn = document.querySelector('.restart');
 //Game popup message of game variables
 const gameTime = document.querySelector('.time');
 let gameMinutes = document.querySelector('.minutes');
+let gameSeconds = document.querySelector('.seconds');
 
 let resetGameTimer = 0;
 
