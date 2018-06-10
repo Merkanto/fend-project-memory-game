@@ -7,6 +7,7 @@ const restartGameBtn = document.querySelector('.restart');
 
 //Game popup message of game variables
 const gameTime = document.querySelector('.time');
+const modalMessage = document.querySelector('.modal');
 let gameTimer;
 let gameMinutes = document.querySelector('.minutes');
 let gameSeconds = document.querySelector('.seconds');
@@ -53,7 +54,6 @@ function turnGameCard(e) {
     e.target.classList.add('open');
     e.target.classList.add('show');
 }
-
 
 
 /*
