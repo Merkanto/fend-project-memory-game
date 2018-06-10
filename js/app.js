@@ -72,6 +72,18 @@ function popupMessage() {
     winnerMessage.appendChild(gameMovesCounter);
 }
 
+//create function for matching of cards
+function areMatched() {
+    cardsMatchingArr[0].classList.add('match');
+    cardsMatchingArr[1].classList.add('match');
+    finishGameCardsCounter++;
+
+    if (finishGameCardsCounter === 8) {
+        clearInterval(gameTimer);
+        popupMessage();
+    }
+}
+
 /*
  * set up the event listener for a card. If a card is clicked:
  *  - display the card's symbol (put this functionality in another function that you call from this one)
