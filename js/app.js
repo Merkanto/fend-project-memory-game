@@ -69,7 +69,7 @@ function popupMessage() {
     winnerMessage.appendChild(restartGameBtn);
     winnerMessage.appendChild(gameStars);
     winnerMessage.appendChild(gameTime);
-    winnerMessage.appendChild(moveCounter);
+    winnerMessage.appendChild(gameMovesCounter);
 }
 
 /*
