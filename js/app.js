@@ -7,6 +7,7 @@ const restartGameBtn = document.querySelector('.restart');
 
 //Game popup message of game variables
 const gameTime = document.querySelector('.time');
+let gameTimer;
 let gameMinutes = document.querySelector('.minutes');
 let gameSeconds = document.querySelector('.seconds');
 
@@ -34,6 +35,9 @@ function shuffle(array) {
 
     return array;
 }
+
+
+
 
 /*
  * set up the event listener for a card. If a card is clicked:
