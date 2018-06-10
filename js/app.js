@@ -36,7 +36,17 @@ function shuffle(array) {
     return array;
 }
 
-
+//create function to stop game watch, who counts the game time until winning the game
+function setGameTime() {
+    gameTimer = setInterval(function () {
+        gameSeconds.innerText++;
+        if (gameSeconds.innerText === 60) {
+            gameMinutes.innerText++;
+            gameSeconds.innerText = 0;
+        }
+    }, 1000);
+    return gameTimer;
+}
 
 
 /*
