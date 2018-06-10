@@ -48,6 +48,13 @@ function setGameTime() {
     return gameTimer;
 }
 
+//create function to turn the game card
+function turnGameCard(e) {
+    e.target.classList.add('open');
+    e.target.classList.add('show');
+}
+
+
 
 /*
  * set up the event listener for a card. If a card is clicked:
