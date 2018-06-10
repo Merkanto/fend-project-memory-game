@@ -73,7 +73,7 @@ function popupMessage() {
 }
 
 //create function for matching of cards
-function areMatched() {
+function matchedCards() {
     cardsMatchingArr[0].classList.add('match');
     cardsMatchingArr[1].classList.add('match');
     finishGameCardsCounter++;
@@ -83,6 +83,18 @@ function areMatched() {
         popupMessage();
     }
 }
+
+//create function for no matching of cards
+function notMatchedCards() {
+    cardsMatchingArr[0].classList.add('no-match');
+    cardsMatchingArr[1].classList.add('no-match');
+    setTimeout(function() {
+        cardsMatchingArr[0].classList.remove('open', 'show', 'no-match');
+        cardsMatchingArr[1].classList.remove('open', 'show', 'no-match');
+        cardsMatchingArr = [];
+    }, 1000);
+}
+
 
 /*
  * set up the event listener for a card. If a card is clicked:
