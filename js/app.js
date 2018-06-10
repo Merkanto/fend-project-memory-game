@@ -9,6 +9,7 @@ const restartGameBtn = document.querySelector('.game-restart');
 const gameTime = document.querySelector('.game-time');
 const gameMessages = document.querySelector('.game-messages');
 const gameStars = document.querySelector('.stars');
+const gameMovesCounter = document.querySelector('.game-moves-counter');
 
 let gameTimer;
 let gameMinutes = document.querySelector('.game-minutes');
