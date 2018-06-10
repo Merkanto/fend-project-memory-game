@@ -95,6 +95,20 @@ function notMatchedCards() {
     }, 1000);
 }
 
+//create function to checks if cards are matched
+function areMatchedCards() {
+
+    if (cardsMatchingArr[0].classList.value === cardsMatchingArr[1].classList.value) {
+        setTimeout(function() {
+            matchedCards();
+            cardsMatchingArr = [];
+        }, 300);
+
+    } else {
+        notMatchedCards();
+    }
+}
+
 
 /*
  * set up the event listener for a card. If a card is clicked:
