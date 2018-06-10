@@ -8,6 +8,7 @@ const restartGameBtn = document.querySelector('.game-restart');
 //Game popup message of game variables
 const gameTime = document.querySelector('.game-time');
 const gameMessages = document.querySelector('.game-messages');
+const gameStars = document.querySelector('.stars');
 
 let gameTimer;
 let gameMinutes = document.querySelector('.game-minutes');
