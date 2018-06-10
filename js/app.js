@@ -19,7 +19,7 @@ let gameSeconds = document.querySelector('.game-seconds');
 let resetGameTimer = 0;
 
 let cardsMatchingArr = [];
-
+let finishGameCardsCounter = 0;
 
 
 /*
