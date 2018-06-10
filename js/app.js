@@ -10,6 +10,7 @@ const gameTime = document.querySelector('.game-time');
 const gameMessages = document.querySelector('.game-messages');
 const gameStars = document.querySelector('.stars');
 const gameMovesCounter = document.querySelector('.game-moves-counter');
+const gameMoves = document.querySelector('.game-moves');
 
 let gameTimer;
 let gameMinutes = document.querySelector('.game-minutes');
@@ -61,6 +62,15 @@ function turnGameCard(e) {
     e.target.classList.add('show');
 }
 
+//create function to show popup messages
+function popupMessage() {
+    const winnerMessage = document.querySelector(".game-message");
+    gameMessages.style.display = "block";
+    winnerMessage.appendChild(restartGameBtn);
+    winnerMessage.appendChild(gameStars);
+    winnerMessage.appendChild(gameTime);
+    winnerMessage.appendChild(moveCounter);
+}
 
 /*
  * set up the event listener for a card. If a card is clicked:
