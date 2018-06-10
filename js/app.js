@@ -5,7 +5,11 @@ const cardsHolderArr = ['paper-plane-o', 'paper-plane-o', 'bolt', 'bolt', 'bomb'
 const cardsDeck = document.querySelector('.card');
 const restartGameBtn = document.querySelector('.restart');
 
+//Game popup message of game variables
+const gameTime = document.querySelector('.time');
+
 let resetGameTimer = 0;
+
 
 /*
  * Display the cards on the page
@@ -28,9 +32,6 @@ function shuffle(array) {
 
     return array;
 }
-
-
-
 
 /*
  * set up the event listener for a card. If a card is clicked:
