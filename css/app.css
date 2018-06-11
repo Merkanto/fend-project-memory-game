@@ -17,7 +17,8 @@ body {
 }
 
 body {
-    background: #ffffff url('../img/geometry2.png'); /* Background pattern from Subtle Patterns */
+    background: #ffffff url('../img/memory-game.jpg'); /* Background pattern from Subtle Patterns */
+    width: 100%;
     font-family: 'Coda', cursive;
 }
 
