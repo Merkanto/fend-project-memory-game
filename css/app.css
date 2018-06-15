@@ -53,7 +53,7 @@ h1 {
 }
 
 .card {
-    transform: rotateY(270deg);
+    transform: rotateY(180deg);
     transform-style: preserve-3d;
     transition: transform .3s ease-out;
 }
