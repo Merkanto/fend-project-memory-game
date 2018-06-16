@@ -1,3 +1,5 @@
+<img src="https://github.com/Merkanto/fend-project-memory-game/blob/master/img/Memory%20game%20sceenshot.png">
+
 # Memory Game Project
 
 This is my "Memory Game" project at Front-End Nanodegree Program.
