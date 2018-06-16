@@ -24,6 +24,13 @@ In this game you can match pairs of cards.
 * The "Memory Game" background image is from Pixabay.com. Here is the link for the image: https://pixabay.com/en/puzzle-last-part-joining-together-3223941/
 * For this game project I was used Google Fonts "Bangers" and "Permanent Marker". Here are the links separated by comma: https://fonts.google.com/specimen/Bangers, https://fonts.google.com/specimen/Permanent+Marker
 
+
+## Bugs that I know:
+
+* A restart button allows the player to reset the game board, the timer, and the star rating.
+* Game displays the current number of moves a user has made.
+
+
 ## Author
 
 Front-End Nanodegree Program ninja student: Miroslav Zhelezchev and a little help from the Udacity team.
