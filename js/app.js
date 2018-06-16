@@ -78,19 +78,6 @@ function setGameTime() {
     return gameTimer;
 }
 
-//creating watch and count the times, and stop when all cards are staying opened
-function createWatch() {
-    gameTimer = setInterval(function() {
-        gameSeconds.innerText++;
-        if(gameSeconds.innerText === 60) {
-            gameMinutes.innerText++;
-            gameSeconds.innerText = 0;
-
-        }
-    }, 1000);
-    return gameTimer;
-}
-
 //stop watch
 function stopWatch() {
     clearInterval(gameTimer);
@@ -143,7 +130,7 @@ function notMatchedCards() {
         cardsMatchingArr[0].classList.remove("open", "show", "no-match");
         cardsMatchingArr[1].classList.remove("open", "show", "no-match");
         cardsMatchingArr = [];
-    }, 800);
+    }, (1000));
 }
 
 //create function to checks if cards are matched
@@ -152,8 +139,7 @@ function areMatchedCards() {
         setTimeout(function() {
             matchedCards();
             cardsMatchingArr = [];
-        }, 300);
-
+        }, (500));
     } else {
         notMatchedCards();
     }
@@ -164,9 +150,10 @@ function countMovesForRating() {
     gameMoves.innerText++;
 
     if (gameMoves.innerText > 17) {
-        document.querySelector(".stars li:first-child").classList.add("empty-star");
+        document.querySelector(".stars li:nth-child(1)").classList.add("empty-star");
 
     }
+
     if (gameMoves.innerText > 25) {
         document.querySelector(".stars li:nth-child(2)").classList.add("empty-star");
     }
@@ -194,6 +181,6 @@ function openAndShowCardSymbol(e) {
 
 //rating reset
 function startRating() {
-    document.querySelector(".stars li:first-child").classList.remove("empty-star");
+    document.querySelector(".stars li:nth-child(1)").classList.remove("empty-star");
     document.querySelector(".stars li:nth-child(2)").classList.remove("empty-star");
 }
