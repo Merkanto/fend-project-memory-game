@@ -1,7 +1,7 @@
 /*
  * Create a list that holds all of your cards
  */
-const cardsHolderArr = ["paper-plane-o", "paper-plane-o", "bolt", "bolt", "bomb", "bomb", "diamond", "diamond", "cube", "cube", "leaf", "leaf", "bicycle", "bicycle"];
+const cardsHolderArr = ["paper-plane-o", "paper-plane-o", "bolt", "bolt", "bomb", "bomb", "diamond", "diamond", "cube", "cube", "leaf", "leaf", "bicycle", "bicycle", "anchor", "anchor"];
 const cardsDeck = document.querySelector(".deck");
 const restartGameBtn = document.querySelector(".game-restart");
 
