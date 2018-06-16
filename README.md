@@ -26,4 +26,4 @@ In this game you can match pairs of cards.
 
 ## Author
 
-Front-End Nanodegree Program ninja student by Udacity: Miroslav Zhelezchev and a little help from the Udacity.
+Front-End Nanodegree Program ninja student: Miroslav Zhelezchev and a little help from the Udacity team.
