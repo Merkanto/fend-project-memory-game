@@ -1,20 +1,29 @@
 # Memory Game Project
 
-## Table of Contents
+This is my "Memory Game" project at Front-End Nanodegree Program.
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
 
-## Instructions
+## Playing instructions:
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+In this game you can match pairs of cards.
+* Click to open pair of cards, when you start the game. If they are the same, then you have to find another two cards to match, until finding all cards pairs.
+* When you open all the cards pairs, you will be congratulate by winning message.
+* You will see the score, moves and time it took to complete the game by winning message.
+* At this message, you can click on the repeat button, if you want to play again.
 
-To get started, open `js/app.js` and start building out the app's functionality
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+## Game Installation
 
-## Contributing
+1. Clone my repo to install the game: https://github.com/Merkanto/fend-project-memory-game.
+2. After that, open index.html in your favourite browser and play the "Memory Game".
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
 
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+## Tools and resources used:
+
+* Initial code from Udacity Front-End Nanodegree Program course: https://github.com/udacity/fend-project-memory-game
+* The "Memory Game" background image is from Pixabay.com. Here is the link for the image: https://pixabay.com/en/puzzle-last-part-joining-together-3223941/
+* For this game project I was used Google Fonts "Bangers" and "Permanent Marker". Here are the links separated by comma: https://fonts.google.com/specimen/Bangers, https://fonts.google.com/specimen/Permanent+Marker
+
+## Author
+
+Front-End Nanodegree Program ninja student by Udacity: Miroslav Zhelezchev and a little help from the Udacity.
