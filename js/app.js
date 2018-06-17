@@ -113,8 +113,8 @@ function showPopupMessage() {
 
 //create function for matching of cards
 function matchedCards() {
-    cardsMatchingArr[0].classList.add("match");
-    cardsMatchingArr[1].classList.add("match");
+    cardsMatchingArr[0].classList.add("match disabled");
+    cardsMatchingArr[1].classList.add("match disabled");
     finishGameCardsCounter++;
 
     if (finishGameCardsCounter === 8) {
@@ -163,7 +163,8 @@ function countMovesForRating() {
 //open card and show its symbol
 function openAndShowCardSymbol(e) {
     if (e.target.classList === "open") {
-        return;
+        cardsMatchingArr[0].classList.add("not-disabled");
+        cardsMatchingArr[1].classList.add("not-disabled");
     }
 
     if(resetGameTimer === 0) {
