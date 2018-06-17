@@ -58,6 +58,7 @@ function shuffle(array) {
 
 //creating start game board with all cards
 function startGameBoard() {
+    cardsMatchingArr = [];
     for (let i = 0; i < cardsHolderArr.length; i++) {
         const newListItem = document.createElement("li");
 
@@ -161,6 +162,10 @@ function countMovesForRating() {
 
 //open card and show its symbol
 function openAndShowCardSymbol(e) {
+    if (e.target.classList === "open") {
+        return;
+    }
+
     if(resetGameTimer === 0) {
         setGameTime();
         resetGameTimer = 1;
