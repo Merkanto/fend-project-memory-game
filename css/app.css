@@ -204,6 +204,14 @@ footer {
     font-style: italic;
 }
 
+.disabled {
+    pointer-events: none;
+}
+
+/*.not-disabled {*/
+    /*pointer-events: auto;*/
+/*}*/
+
 @media screen and (max-width: 992px) {
     .deck {
         width: 330px;
