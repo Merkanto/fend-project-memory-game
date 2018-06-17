@@ -203,3 +203,66 @@ footer {
     text-shadow: 1px 1px #888;
     font-style: italic;
 }
+
+@media screen and (max-width: 992px) {
+    .deck {
+        width: 330px;
+        min-height: 340px;
+        background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+        padding: 16px;
+        border-radius: 5px;
+        box-shadow: 6px 7px 10px 0 rgba(46, 61, 73, 0.5);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 0 1.45em;
+    }
+
+    .deck .card {
+        width: 60px;
+        height: 60px;
+    }
+
+    .score-panel {
+        text-align: left;
+        padding: 10px;
+        margin: 10px;
+        background: #0097b2;
+        color: #fff;
+        font-weight: 700;
+        border-radius: 4px;
+        font-size: 9px;
+        width: 210px;
+        margin: 2px auto 5px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .score-panel .stars {
+        display: inline-block;
+        margin: auto 2px auto 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .deck {
+        width: 165px;
+        min-height: 170px;
+        background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+        padding: 8px;
+        border-radius: 2px;
+        box-shadow: 3px 4px 8px 0 rgba(46, 61, 73, 0.5);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 0 0.75em;
+    }
+
+    .deck .card {
+        width: 30px;
+        height: 30px;
+    }
+}
